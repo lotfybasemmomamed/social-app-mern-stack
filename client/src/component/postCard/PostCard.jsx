@@ -13,7 +13,7 @@ export default function PostCard() {
   const [dir, setDir] = useState(i18n.language === "ar" ? "rtl" : "ltr");
 
   return (
-    <div className="border-[0.5px] rounded-sm border-gray-300  p-4 flex justify-center items-center dark:bg-gray-900 dark:border-gray-700">
+    <div className="card-border  p-4 flex justify-center items-center dark:bg-gray-900 ">
       <div>
         {/* header */}
         <div className="flex justify-between items-center">
@@ -50,7 +50,7 @@ export default function PostCard() {
           </div>
         </div>
         {/* discription */}
-        <div className="leading-tight text-left text-[15px] mt-3 mb-2 text-gray-600 dark:text-gray-400">
+        <div className="leading-tight text-left text-[15px] mt-3 mb-2 text-gray">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, at
           similique? Quo molestiae aperiam reiciendis nihil nemo obcaecati rem
           cumque, ducimus ut eum, in consequuntur voluptate quos at officiis!

@@ -5,3 +5,9 @@
 * {
   font-family: "Inter", sans-serif;
 }
+.text-gray {
+  @apply text-gray-600 dark:text-gray-400;
+}
+.card-border{
+  @apply border-[0.5px] rounded-sm border-gray-300 dark:border-gray-700 shadow-sm
+}
