@@ -32,14 +32,14 @@ export default function PostCard() {
                 <h3 className=" font-bold  m-0 p-0 whitespace-nowrap dark:text-gray-100">
                   lotfy basem
                 </h3>
-                <div className="text-gray-600  flex items-center justify-center dark:text-gray-400">
-                  <Dot className="text-gray-600" />{" "}
+                <div className="text-color flex items-center justify-center ">
+                  <Dot className="text-color" />
                   <span className="whitespace-nowrap text-[14px]">
                     2 hours age
                   </span>
                 </div>
               </div>
-              <p className="whitespace-nowrap text-gray-600   capitalize text-[14px] dark:text-gray-400">
+              <p className="whitespace-nowrap text-color  capitalize text-[14px] ">
                 junior frontend developer
               </p>
             </div>
@@ -50,7 +50,7 @@ export default function PostCard() {
           </div>
         </div>
         {/* discription */}
-        <div className="leading-tight text-left text-[15px] mt-3 mb-2 text-gray">
+        <div className="leading-tight text-left text-[15px] mt-3 mb-2 text-color">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, at
           similique? Quo molestiae aperiam reiciendis nihil nemo obcaecati rem
           cumque, ducimus ut eum, in consequuntur voluptate quos at officiis!
@@ -67,7 +67,7 @@ export default function PostCard() {
         {/* actions */}
         <div
           dir={dir}
-          className="text-gray-600 dark:text-gray-400 flex items-center justify-between mt-4"
+          className="text-color flex items-center justify-between mt-4"
         >
           {/* left part */}
           <div className="flex gap-4 items-center">

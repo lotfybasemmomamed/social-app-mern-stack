@@ -7,7 +7,7 @@ i18n
     resources: {
      
     },
-    lng: "ar", 
+    lng: "en", 
     fallbackLng: "en",
 
     interpolation: {
